@@ -12,7 +12,7 @@ public class AppConfig {
 	@Bean
 	public ThreadPoolTaskExecutor taskExecutor() {
 		ThreadPoolTaskExecutor pool = new ThreadPoolTaskExecutor();
-		pool.setCorePoolSize(10);
+		pool.setCorePoolSize(6);
 		pool.setMaxPoolSize(20);
 		pool.setWaitForTasksToCompleteOnShutdown(true);
 		return pool;
