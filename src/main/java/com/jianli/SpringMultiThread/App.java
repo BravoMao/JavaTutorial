@@ -66,7 +66,7 @@ public class App {
 			printTask.setName("Thread " + i.toString());
 			taskExecutor.execute(printTask);
 
-		//to check active thread, if no then shut down the thread pool 
+		//to check active thread, if no then shut down the thread pool s
 			for (;;) {
 				int count = taskExecutor.getActiveCount();
 				System.out.println("Active Threads : " + count);
