@@ -1,3 +1,4 @@
 target/
 /Maven Dependencies/
 src/test/java/
+.settings
