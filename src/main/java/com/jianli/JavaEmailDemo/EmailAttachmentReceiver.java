@@ -1,4 +1,4 @@
-package JavaEmailDemo;
+package com.jianli.JavaEmailDemo;
 
 import java.io.File;
 import java.io.IOException;
@@ -19,12 +19,6 @@ import javax.mail.Store;
 import javax.mail.internet.MimeBodyPart;
 import javax.mail.search.FlagTerm;
 
-/**
- * This program demonstrates how to download e-mail messages and save attachments into files on disk.
- *
- * @author www.codejava.net
- *
- */
 public class EmailAttachmentReceiver {
     private String saveDirectory;
 
